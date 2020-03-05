@@ -68,6 +68,10 @@ public class CarTester {
         System.out.println("------------------------");
         
         System.out.println(car3.toString());
+        
+        System.out.println("Honking the horn.");
+        car1.honkHorn1();
+        car2.honkHorn2();
     }
     
 }
