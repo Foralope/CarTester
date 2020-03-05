@@ -24,6 +24,14 @@ public class Car {
         modelType = model;
     }
     
+    public void honkHorn1(){
+        System.out.println("HONK! HONK! HONK!");
+    }
+    
+    public void honkHorn2(){
+        System.out.println("BEEEEEEEEEEP!");
+    }
+    
     public String toString() {
         String output1 = "Car age (in years): "+carAge+"\n";
         output1 += "Year it was made: "+yearMade+"\n";
